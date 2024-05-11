@@ -1,0 +1,49 @@
+.round{
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+   text-align: center;
+   border-radius: 50%;
+   justify-content: center;
+   align-items: center;
+   background-color: orange;
+   display: flex;
+   margin-bottom: 50em;
+   margin-top: 30em;
+   flex-wrap: wrap;
+   
+
+
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 0;
+}
+.divider{
+    width: 1px;
+    background-color: #000;
+    margin: 0 20px;
+    height: fit-content;
+    border: 1px;
+}
+
+/* the problem is bcs i didn't creat another css for the form */
+.dark {
+    background-color:#243447;
+    height: 100vh;
+    color: #bebebe;
+}
+
+.light {
+    background-color: #f0ead6;
+    color: black;
+    height: 100vh;
+  }
+
+
+
+    
