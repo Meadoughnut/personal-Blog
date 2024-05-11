@@ -12,9 +12,8 @@ themeSwitcher.addEventListener('click', function () {
     mode = 'dark';
     container.setAttribute("class", 'dark');
   }
+});
   
 
 
 
-
-});
