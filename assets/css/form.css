@@ -1,10 +1,18 @@
-#selectionform{
-    justify-content:center;
-    margin-left: 55em;
-   margin-top: 1em;
-   padding: 20px;
-   border: 5px double black;
-   height: 20em;
-   align-content: center;
 
+
+#selectionform{
+    width: fit-content;
+    /* you can decide the width of later but for now just fit content */
+    /* or i am good since i have a padding */
+    background-color:whitesmoke;
+    /* margin: 0 20px; */
+    height: fit-content;
+    border: 1px solid black;
+    /* flex-direction: column;
+    flex-flow: column; */
+    padding: 40px;
+    position: absolute;
+    margin-left: 35em;
+    margin-bottom: 50em;
 }
+
