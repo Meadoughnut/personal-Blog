@@ -1,48 +1,57 @@
+.container {
+     border: 1px, double, black;
+}
+
+.header{
+    border: 1px solid black;
+    text-align: end;
+    width: 100%;
+}
 #round{
-    width: 200px;
-    height: 200px;
-    border: 2px solid red;
-   text-align: center;
-   border-radius: 50%;
-   justify-content: center;
-   align-items: center;
-   background-color: orange;
-   display: flex;
-   margin-bottom: 50em;
-   margin-top: 30em;
-   flex-wrap: wrap;
-   /* // */
-   /* padding: 40px;
-    position: absolute;
-    margin-left: 35em;
-    margin-bottom: 50em;
-} */
-
-   
+    border: 1px solid black;
+     border-radius: 50%;
+     width: 30em;
+     height: 30em;
+     margin-top: 8em;
+     margin-left: 30px;
+     text-align: center;
+     justify-content: center;
+     
+     
 
 
 }
-
-body{
+#selectionform{
+    border: 1px solid black; 
+    margin-left: 20em;
+    width: 25em;
+    height: 25em;
+    padding:30px;
+    margin-top: 8em;
+    margin-left:10em ;
+}
+.main {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    margin: 0;
-}
-/* the problem is bcs i didn't creat another css for the form */
-.dark {
-    background-color:#243447;
-    height: 100vh;
-    color: #bebebe;
+    gap: 10em;
+
+     
 }
 
-.light {
-    background-color: #f0ead6;
-    color: black;
-    height: 100vh;
-  }
+
+ 
 
 
 
-    
+
+
+
+
+
+
+
+
+
+
+
+
+

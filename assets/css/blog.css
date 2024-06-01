@@ -1,32 +1,5 @@
-
-.title1{
-
-    padding: 20px;
-    border: 1px solid black;
+.title{
+    border: 1px, solid, black;
+    width: 10px;
+    height:px;
 }
-
-.title2{
-
-    padding: 20px;
-    border: 1px solid black;
-}
-
-.title3{
-
-    padding: 20px;
-    border: 1px solid black;
-}
-
-.title4{
-
-    padding: 20px;
-    border: 1px solid black;
-}
-/* }
-.title2
-.title3
-.title4{
-
-    padding: 20rem;
-    border: 1px solid black;
-} */

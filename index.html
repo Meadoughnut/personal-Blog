@@ -2,62 +2,48 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Blog</title>
-    <link rel="stylesheet" type="text/css" href="/assets/css/style.css"/>
-    <link rel="stylesheet" type="text/css" href="/assets/css/form.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My First Blog</title>
+  <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/form.css" />
 </head>
 
 <body class="container">
-  <header>
-    <div class="toggle">
-      
-      <label class="switch col">
-        <input type="checkbox" id="theme-switcher">
-        <span class="slider"></span>
-      </label>
-    
-    </div>
-    <div class="row">
+  <header class="header">
+    <label class="switch col">
+      <input type="checkbox" id="theme-switcher" >
+  </label>
   </header>
-     <section id="round"> My First Blog</section>
-     <br>
-     <br>
-     <aside id="selectionform">
+<div class="main"> 
+  <section id="round"> My First Blog</section>
+
+  <aside id="selectionform">
     <h2 class="title"> What is on your mind?</h2>
     <form class="form">
       <div class="firstinput">
         <label for="username">Username</label>
-        
+
         <br>
-        <input id="username" type="username" class="form-input" name="username"  />
+        <input id="username" type="username" class="form-input" name="username" />
       </div>
       <br>
       <div class="secondinput">
         <label for="title">Title</label>
         <br>
-        <input id="title" type="title" class="form-input" name="title"  />
+        <input id="title" type="title" class="form-input" name="title" />
       </div>
       <br>
       <div class="lastinput">
         <label for="content">content</label>
         <br>
-        <input id="content" type="content" class="form-input" name="content"  />
+        <input id="content" type="content" class="form-input" name="content" />
       </div>
       <br>
       <button class="Btn">Submit</button>
-      </aside>
-
-
-
-
-
-
-
-
-
-    </form>
+  </aside>
+</div>
+  </form>
 
 </body>
 
