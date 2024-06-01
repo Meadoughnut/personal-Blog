@@ -1,0 +1,35 @@
+#Light-mode-button {
+    border: 0.5px;
+    margin-bottom: 3em;
+    justify-content: end;
+}
+
+.first-blog {
+    border: 1px solid black;
+    /* border-radius: 50%; */
+  /
+    /* margin-right: 20px ; */
+    /* width: ; */
+    text-align: center;
+
+
+}
+
+.selection-form {
+    border: 1px solid black;
+    padding: 50px;
+    margin-right: 20px ;
+
+
+}
+.main-section {
+    display: flex;
+   
+    border: 1px solid black;
+    justify-content: space-between;
+
+  
+
+   
+   
+}
