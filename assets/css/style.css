@@ -1,57 +1,33 @@
-.container {
-     border: 1px, double, black;
-}
-
-.header{
+.header {
     border: 1px solid black;
-    text-align: end;
-    width: 100%;
-}
-#round{
-    border: 1px solid black;
-     border-radius: 50%;
-     width: 30em;
-     height: 30em;
-     margin-top: 8em;
-     margin-left: 30px;
-     text-align: center;
-     justify-content: center;
-     
-     
-
-
-}
-#selectionform{
-    border: 1px solid black; 
-    margin-left: 20em;
-    width: 25em;
-    height: 25em;
-    padding:30px;
-    margin-top: 8em;
-    margin-left:10em ;
-}
-.main {
     display: flex;
-    gap: 10em;
+   
 
-     
+}
+.Title{
+    border: 1px solid black;
+    padding: 5px;
+    margin-right: 5em;
+
+
+}
+a {
+    border: 1px solid black;
+
+}
+.headerbuttons{
+  
+   
 }
 
+.mb-3 {
+    border: 1px solid black;
 
- 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+hr {
+    color: black;
+}
+.footerconclusion{
+    text-align: center;
+}
