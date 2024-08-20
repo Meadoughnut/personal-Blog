@@ -1,3 +1,10 @@
+.dark{
+    background:black;
+}
+.light{
+    background:lightgray;
+}
+
 .landingimg{
     border: 1px solid violet;
     padding:20px;
