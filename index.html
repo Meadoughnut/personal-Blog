@@ -4,62 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/blog.css">
-    <link rel="stylesheet" href="assets/css/form.css">
+    
+  
 </head>
 
 <body>
     
-     <div id="Light-mode-button">
-        <button type="button" class="btn-close">☀️</button>
+     <div id="lightmodebtn">
+        <button type="button">☀️</button>
      </div>
+     <hr>
+     <br>
+     <main class="blogpost">
 
 
-    <main class="main-section">
-        <div class="first-blog">
-            <h2> <strong> My First Blog</strong></h2>
+     <section class="landingimg">
+      <div class="firstblog">
+        <h1>My first blog</h1>
+      </div>
+     </section>
+
+     <section class="formpage">
+      <div id="title">
+        <h3>What is in your mind?</h3>
+      </div>
+      <br>
+      
+      <div class="form">
+        <form id="blogForm">
+          <div class="label">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required>
         </div>
-
-        <div class="selection-form">
-            <h4> What's on your mind? </h4>
-
-            <form class="form" id="blogform">
-                <div class="row mb-3">
-                    <label for="colFormLabel" class="col-sm-2 col-form-label" >Username</label>
-                    <div class="col-sm-10">
-                      <input type="email" class="form-control form-control" id="usernameInput">
-                    </div>
-                  </div>
-                  <div class="row mb-3">
-                    <label for="colFormLabel" class="col-sm-2 col-form-label">Title</label>
-                    <div class="col-sm-10">
-                      <input type="email" class="form-control" id="titleInput" >
-                    </div>
-                </div>
-                <div class="row">
-                    <label for="colFormLabel" class="col-sm-2 col-form-label col-form-label">Content</label>
-                    <div class="col-sm-10">
-                      <input type="email" class="form-control form-control-lg" id="contentInput">
-                    </div>
-                  
-                </div>
-
-                <br>
-                    
-                <button type="button" class="btn btn-primary" id="submitButton">Submit</button>
-
-    
-
-            </form>
-
+         
+          <div class="label">
+          <label for="title">Blog Title:</label>
+          <input type="text" id="title" name="title" required>
         </div>
-            
+          
+          <div class="label">
+          <label for="content">Blog Content:</label>
+          <textarea id="content" name="content" required></textarea>
+        </div>
+          
+          
+          <button type="submit">Submit</button>
+      </form>
+      </div>
 
-
-
-
+     </section>
     </main>
+
+
+   
 
 
 

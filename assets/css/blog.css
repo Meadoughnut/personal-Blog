@@ -1,35 +1,39 @@
-#Light-mode-button {
-    border: 0.5px;
-    margin-bottom: 3em;
-    justify-content: end;
+.landingimg{
+    border: 1px solid violet;
+    padding:20px;
+    margin: 40px;
+    height: 40rem;
+    width: 40rem;
 }
-
-.first-blog {
-    border: 1px solid black;
-    /* border-radius: 50%; */
-  /
-    /* margin-right: 20px ; */
-    /* width: ; */
-    text-align: center;
-
+h1{
+    border: 1px solid rgb(17, 15, 17);
+    padding: 15px;
 
 }
+.formpage{
+    border: 1px solid violet;
+    padding:20px;
+    margin: 40px;
+    height: 40rem;
+    width: 40rem;
+    justify-content: center;
+}
+#blogForm{
+    margin-right: 80px;
+    border: 1px solid red;
+    width: fit-content;
+}
 
-.selection-form {
-    border: 1px solid black;
-    padding: 50px;
-    margin-right: 20px ;
+
+.label{
+    justify-content: center;
+    padding:10px;
+    color: blue;
 
 
 }
-.main-section {
+.blogpost{
     display: flex;
-   
-    border: 1px solid black;
-    justify-content: space-between;
-
-  
-
-   
-   
+    flex-direction:row;
+    
 }

@@ -1,2 +1,60 @@
+header{
+    margin: 10px;
+    display: flex;
+    align-items:baseline;
+    gap: 20rem;
+}
+   
+#title{
+    padding: 10px;
+}
+.headerbuttons{
+    padding: 10px;
+}
+a{
+    margin: 10px;
+}
+button{
+    margin-right: 7px;
+}
+.formdata1{
+    display: block;
+    
+    padding: 10px;
+    margin: 5px;
 
+    border: 1px solid pink;
+}
+.formdata2{
+    display: block;
+    
+    padding: 10px;
+    margin: 5px;
+
+    border: 1px solid pink;
+}
+.formdata3{
+    display: block;
+    
+    padding: 10px;
+    margin: 5px;
+
+    border: 1px solid pink;
+}
+.form-control{
+    width: 35rem;
+    margin: 5px;
+}
+.FormControlTextarea{
+    width: 35rem;
+    margin: 5px;
+
+}
+main{
+    border: 1px solid red;
+}
+
+
+    
+   
 
